@@ -24,6 +24,7 @@
 		88D248FD1DF017F500ACA674 /* sure_placeholder_error@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88D248FB1DF017F500ACA674 /* sure_placeholder_error@2x.png */; };
 		88D248FE1DF017F500ACA674 /* sure_placeholder_error@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88D248FC1DF017F500ACA674 /* sure_placeholder_error@3x.png */; };
 		88D249831DF7AA3C00ACA674 /* MultiGroupTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88D249821DF7AA3C00ACA674 /* MultiGroupTableViewController.m */; };
+		F6E0E50F1E1391DD00678D07 /* AppPlaceholder.podspec in Resources */ = {isa = PBXBuildFile; fileRef = F6E0E50E1E1391DD00678D07 /* AppPlaceholder.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +57,7 @@
 		88D248FC1DF017F500ACA674 /* sure_placeholder_error@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sure_placeholder_error@3x.png"; sourceTree = "<group>"; };
 		88D249811DF7AA3C00ACA674 /* MultiGroupTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiGroupTableViewController.h; sourceTree = "<group>"; };
 		88D249821DF7AA3C00ACA674 /* MultiGroupTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiGroupTableViewController.m; sourceTree = "<group>"; };
+		F6E0E50E1E1391DD00678D07 /* AppPlaceholder.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AppPlaceholder.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 		88D2483C1DEE6A2B00ACA674 = {
 			isa = PBXGroup;
 			children = (
+				F6E0E50D1E13918300678D07 /* Podspec */,
 				88D248471DEE6A2B00ACA674 /* AppPlaceholder */,
 				88D248461DEE6A2B00ACA674 /* Products */,
 			);
@@ -144,6 +147,14 @@
 			path = Example;
 			sourceTree = "<group>";
 		};
+		F6E0E50D1E13918300678D07 /* Podspec */ = {
+			isa = PBXGroup;
+			children = (
+				F6E0E50E1E1391DD00678D07 /* AppPlaceholder.podspec */,
+			);
+			name = Podspec;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -202,6 +213,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6E0E50F1E1391DD00678D07 /* AppPlaceholder.podspec in Resources */,
 				88D248581DEE6A2C00ACA674 /* LaunchScreen.storyboard in Resources */,
 				88D248551DEE6A2C00ACA674 /* Assets.xcassets in Resources */,
 				88D248FD1DF017F500ACA674 /* sure_placeholder_error@2x.png in Resources */,
